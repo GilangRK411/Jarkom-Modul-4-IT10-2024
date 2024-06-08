@@ -43,7 +43,11 @@ Berikut adalah Penggabungan Subnnet
 
 # Pembagian IP dari subnet CIDR
 
-Berikut adalah  Pembagian IP dari subnet CIDR dan Tree nya
+Berikut adalah Grouping, Pembagian IP dari subnet CIDR dan Tree nya
+
+Grouping
+
+![Group 1](https://github.com/GilangRK411/Jarkom-Modul-4-IT10-2024/assets/143797853/ca75f282-f424-4bb6-bd25-b76dcd788281)
 
 Tree
 
@@ -53,9 +57,39 @@ Pembagian IP
 
 ![image](https://github.com/GilangRK411/Jarkom-Modul-4-IT10-2024/assets/143797853/12091bec-6d16-4887-bc97-876cc826b946)
 
-# Konfigurasi IP
+# Konfigurasi IP CIDR
 
-Jawa
+Node Jawa
+
+```
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+    address 192.238.148.1
+    netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+    address 192.240.0.1
+    netmask 255.255.255.0
+
+auto eth3
+iface eth3 inet static
+    address 192.238.68.1
+    netmask 255.255.255.0
+```
+
+Node Sumatra
+
+```
+auto eth0
+iface eth0 inet static
+    address 192.238.136.2
+    netmask 255.255.255.0
+    gateway 192.238.136.1
+```
 
 
 
