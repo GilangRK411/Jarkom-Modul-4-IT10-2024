@@ -27,6 +27,10 @@ Soal Jarkom Modul 4 2024
 # Prefix IP
 Prefux IP yang diguanakan kelompok kami ```192.238```
 
+# CIDR
+
+CIDR adalah singkatan dari "Classless Inter-Domain Routing" yang merupakan sebuah metode untuk mengalokasikan dan mengelola alamat IP dalam jaringan komputer. Metode ini memungkinkan untuk pengelompokan alamat IP secara lebih efisien daripada metode yang lain yang menggunakan kelas seperti Class A, B, dan C. Dengan CIDR, alamat IP dipecah menjadi blok-blok yang lebih kecil yang disebut sebagai "CIDR blocks". Setiap blok CIDR terdiri dari alamat IP bersama dengan angka yang menunjukkan jumlah bit dari alamat IP yang digunakan untuk menyatakan jaringan, biasanya ditunjukkan dalam notasi seperti "alamat IP/prefix_length". Misalnya, "192.238.1.0/24" menunjukkan bahwa 24 bit pertama dari alamat IP tersebut digunakan untuk menunjukkan jaringan, sementara sisanya digunakan untuk mengidentifikasi host dalam jaringan tersebut. Ini memungkinkan fleksibilitas yang lebih besar dalam penentuan ukuran jaringan dan alokasi alamat IP.
+
 # Tolopogi GNS CIDR
 
 Berikut adalah Topologi Pohon CIDR
