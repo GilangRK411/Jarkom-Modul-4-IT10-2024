@@ -55,9 +55,11 @@ Grouping
 
 Tree
 
+Setelah di lakukan grouping data data yang ada dioalah dengna menggunakan teknik tree, dengan menyusun dari class paling tinggi ke paling rendah, dengan class yang paling rendah yang nantinya akan diambil misal subnet A1,A2, etc.
+
 ![IT10 CIDR drawio](https://github.com/GilangRK411/Jarkom-Modul-4-IT10-2024/assets/143797853/6f47716b-219b-422d-9c53-70555c3fd875)
 
-Pembagian IP 
+Lalu dilakukan Pembagian IP sesuai dengan hasil yang di dapat pada proses tree
 
 ![image](https://github.com/GilangRK411/Jarkom-Modul-4-IT10-2024/assets/143797853/12091bec-6d16-4887-bc97-876cc826b946)
 
